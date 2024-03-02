@@ -1,11 +1,7 @@
 .PHONY: run clean docs
 
-black:
-	black alchemy
 
-test:
-	coverage run -m pytest tests && coverage html && open htmlcov/index.html
+run:
+	node --trace-deprecation alchemy.js
 
-type-check:
-	mypy alchemy
 
