@@ -1,6 +1,32 @@
 {
+  "name": "alchemy-githubcontributor-animation",
+  "version": "1.0.0",
+  "description": "Github Contribution animation",
+  "main": "alchemy.js",
   "dependencies": {
     "axios": "^1.6.7",
-    "canvas": "^2.11.2"
-  }
+    "canvas": "^2.11.2",
+    "gifencoder": "^2.0.1",
+    "js-astar": "^0.0.2",
+    "node-emoji": "^2.1.3",
+    "pathfinding": "^0.4.18"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GirishCodeAlchemy/alchemy-githubcontributor-animation.git"
+  },
+  "keywords": [
+    "Github",
+    "Animation",
+    "Nodejs",
+    "SVG",
+    "GIF"
+  ],
+  "author": "GirishCodeAlchemy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GirishCodeAlchemy/alchemy-githubcontributor-animation/issues"
+  },
+  "homepage": "https://github.com/GirishCodeAlchemy/alchemy-githubcontributor-animation#readme"
 }
